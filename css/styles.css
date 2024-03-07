@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h1 {
+    color: blue;
+    font-family: "Lato", sans-serif;
+    text-decoration: underline;
+}
+
+h2 {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+h3 {
+    color: rgb(0, 174, 255);
+    text-decoration: underline;
+
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.grid-item-img {
+    object-fit: cover;
+}
+
+.grid-item {
+    justify-content: flex-start;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media query desde mobile hacia desktop */
+
+@media screen media screen and (min-width: 768px) body {
+    flex-direction: row;
+}
+
+/* Media query desktop -entre 1024px y 1200px) */
+@media screen and (min-width: 1024px) {}
